@@ -56,19 +56,6 @@ Place your dataset (e.g., `Face_recognition_dataset.zip`) in the project directo
 ```python
 with zipfile.ZipFile('path/to/your_dataset.zip') as files:
     files.extractall()
-```
-
-### 4️⃣ Run the Code
-Train the model:
-```bash
-python train.py
-```
-
-Evaluate on the test set:
-```bash
-python test.py
-```
-
 ---
 
 ## 📊 Results
