@@ -56,6 +56,7 @@ Place your dataset (e.g., `Face_recognition_dataset.zip`) in the project directo
 ```python
 with zipfile.ZipFile('path/to/your_dataset.zip') as files:
     files.extractall()
+```
 ---
 
 ## 📊 Results
